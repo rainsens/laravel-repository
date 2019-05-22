@@ -1,0 +1,22 @@
+{
+    "name": "rainsens/laravel-repository",
+    "description": "Laravel repository",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rainsen",
+            "email": "yusen@rainsen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "5.*",
+        "illuminate/database": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rainsens\\Repository\\": "src"
+        }
+    },
+    "prefer-stable": true
+}
